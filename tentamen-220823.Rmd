@@ -1,0 +1,92 @@
+---
+title: "MT3003 tentamen"
+author: "[förnamn] [efternamn] ([tentamenskod])"
+date: '2022-08-23'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, error = TRUE, message = FALSE) # Ändra ej
+```
+
+## Försäkran och identifiering
+
+Jag, [förnamn] [efternamn] ([tentamenskod]), försäkrar att lösningarna bifogat i denna fil är mitt eget självständigt utförda arbete.
+
+```{r, echo = FALSE, out.width = "50%", fig.cap = "Bild på min identitetshandling och datorskärm"}
+knitr::include_graphics("[min_id_bild.jpg]")
+```
+
+## Uppgift 1
+
+Min tabell över de 5 länder som har flest bekräftade fall genereras av
+
+```{r}
+# Min kod
+```
+
+Min figur över antalet bekräftade fall per kalendervecka genereras av
+
+```{r}
+# Min kod
+```
+
+Min figur över antalet bekräftade fall per invånare genereras av
+
+```{r}
+# Min kod
+```
+
+
+## Uppgift 2
+
+Min kod för att skapa tabellerna `eprice_table1` och `eprice_table2` ges av
+
+```{r}
+eprice_table1 <- # Min kod
+
+eprice_table1
+```
+
+
+```{r}
+eprice_table2 <- # Min kod
+
+eprice_table2
+```
+
+Min figur över hushållens elpriser i norden genereras av
+
+```{r}
+nordic_countries <- c("DK", "FI", "IS", "NO", "SE")
+# Min kod
+```
+
+
+Min figur över årliga säsongspriser genereras av
+
+```{r}
+# Min kod
+```
+
+
+
+## Uppgift 3
+
+Min kod för att ta fram den tävlande som finns med i listan för sju grenar
+
+```{r}
+# Min kod
+```
+
+Min kod för att ta fram antalet män och antalet kvinnor i startlistan
+
+```{r}
+# Min kod
+```
+
+Min kod för att ta fram en tabell över antalet tävlande som har bästa kvaltid i flera grenar
+
+```{r}
+# Min kod
+```
